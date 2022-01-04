@@ -17,7 +17,7 @@ This project aims to price auto-callable options using least squares policy iter
 # Monte Carlo Simulation:
 
 * Monte-Carlo grid with Brownian motion (Black-Scholes model) and a stochastic volatility (Heston Model):
-* For the rest of the project, we use Heston Model as it emphasis on the randomness of the volatility.
+* For the rest of the project, we use Heston Model as it emphasizes on the randomness of the volatility.
 
 ![image 1](https://github.com/YoussefAithaddou/Pricing-American-Options-with-Q-learning/blob/main/Monte_carlo%20grids.png)
 
@@ -27,9 +27,12 @@ This project aims to price auto-callable options using least squares policy iter
 * (T1 = 3 Month, T2 =6 Month,T3 = 9 Month and T4 := T = 1 Year). 
 * At each Ti if the observed stock price is above the barrier 120% x S0 the holder pays c and the structure continue.
 * Otherwise the the holder receives the stock performance Sti/S0.
-* Finally at last expiry T if the structure is still alive, the holder receives unconditionally the performance ST/S0.
-###### Hyper parameters:
-* Batch size: 16
+* Finally at last expiry T if the structure is still alive, the holder unconditionally receives the performance ST/S0.
+# BackTest:
+### Option Prices:
+* LSPI and FQI descovers better strategies to execute the option, thus we except a higher return and therefore a higher option prices than LSM.
+![image 2](https://github.com/YoussefAithaddou/Pricing-American-Options-with-Q-learning/blob/main/Option_prices.png)
+
 * Epochs: 3
 # Model Evaluation:
 * Accuracy on training set is 98.28 %
