@@ -17,6 +17,7 @@ This project aims to price auto-callable options using least squares policy iter
 # Monte Carlo Simulation:
 
 * Monte-Carlo grid with Brownian motion (Black-Scholes model) and a stochastic volatility (Heston Model):
+* For the rest of the project, we use Heston Model as it emphasis on the randomness of the volatility.
 
 ![image 1](https://github.com/YoussefAithaddou/Pricing-American-Options-with-Q-learning/blob/main/Monte_carlo%20grids.png)
 
