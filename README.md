@@ -1,7 +1,7 @@
 # Pricing-American-Options-with-Q-learning
 This project aims to price auto-callable options using least squares policy iteration (LSPI) and fitted Q-iteration (FQI) as opposed to the usual least squares Monte Carlo (LSM) approach.
 
-* Used 1 year of Apple Inc. (AAPL) stock data from Yahoo finance (https://finance.yahoo.com/quote/AAPL).
+* Used 1 year of Apple Inc. (AAPL) stock data from Yahoo finance.
 * Produced 20000 Monte Carlo simulation paths using Black_Scholes and Heston models.
 * Coded least squares policy iteration, fitted Q-iteration and least squares Monte Carlo algorithms with Numpy and Scipy libraries.
 * Backtested the three strategies in pricing an Autocallable option.
