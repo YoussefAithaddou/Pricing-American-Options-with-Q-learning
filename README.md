@@ -43,6 +43,8 @@ This project aims to price auto-callable options using least squares policy iter
 ### Profit and Loss:
 Q-learning methods produce a better hedging:
 ##### P&L is clustered around 0, with a standar deviation 4 times smaller than the usual LSM:
+![image 4](https://github.com/YoussefAithaddou/Pricing-American-Options-with-Q-learning/blob/main/PnL.png)
+
 1. Mean:
 * LSM : 0.000840		
 * LSPI: 0.000122
@@ -56,11 +58,6 @@ Q-learning methods produce a better hedging:
 
 ##### Condfidence intervals for LSPI and FQI of daily P&L values are significently wider athan those LSM.
 
-![image 4](https://github.com/YoussefAithaddou/Pricing-American-Options-with-Q-learning/blob/main/COnfidence_intervals.PNG)
+![image 5](https://github.com/YoussefAithaddou/Pricing-American-Options-with-Q-learning/blob/main/COnfidence_intervals.PNG)
 
-# Sample visualization:
-* I used a batch of test data (4 images from each location) to asses how the model predict the location of each frame:
 
-![image 2](https://github.com/YoussefAithaddou/CNN-to-predict-locations-of-my-previous-trips/blob/main/result%20sample.png)
-
-* This model achieved a high accuracy rate with a small training sets due to the fact that all pictures are relatively similar to each other (frames of the same video). In this particular sample, the model manages to accurately identify each location the frames belong to. That is, on average we can accurately identify pictures at a ratio of 14.96 frames in each batch of 16.
