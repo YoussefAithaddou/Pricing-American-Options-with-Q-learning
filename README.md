@@ -56,7 +56,7 @@ Q-learning methods produce a better hedging:
 * FQI : 0.0086
 
 
-##### Condfidence intervals for LSPI and FQI of daily P&L values are significently wider athan those LSM.
+##### Condfidence intervals for LSPI and FQI of daily P&L values are significently wider than those LSM.
 
 ![image 5](https://github.com/YoussefAithaddou/Pricing-American-Options-with-Q-learning/blob/main/COnfidence_intervals.PNG)
 
