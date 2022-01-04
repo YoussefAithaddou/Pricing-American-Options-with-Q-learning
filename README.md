@@ -2,7 +2,7 @@
 This project aims to price auto-callable options using least squares policy iteration (LSPI) and fitted Q-iteration (FQI) as opposed to the usual least squares Monte Carlo (LSM) approach.
 
 * Used 1 year of Apple Inc. (AAPL) stock data from Yahoo finance.
-* Produced 20000 Monte Carlo simulation paths using Black_Scholes and Heston models.
+* Produced 20000 Monte Carlo simulation paths using Black-Scholes and Heston models.
 * Coded least squares policy iteration, fitted Q-iteration and least squares Monte Carlo algorithms with Numpy and Scipy libraries.
 * Backtested the three strategies in pricing an Autocallable option.
 * Calculated Price, Delta and Profit and Loss of each method.
@@ -15,9 +15,10 @@ This project aims to price auto-callable options using least squares policy iter
 * Used only the daily adjusted closing price.
 
 # Monte Carlo Simulation:
-* Model information using torchinfo:
 
-![image 1](https://github.com/YoussefAithaddou/CNN-to-predict-locations-of-my-previous-trips/blob/main/model%20info.PNG)
+* Monte-Carlo grid with Brownian motion (Black-Scholes model) and with Heston Model:
+
+![image 1](https://github.com/YoussefAithaddou/Pricing-American-Options-with-Q-learning/blob/main/Monte_carlo%20grids.png)
 
 ###### Model layers:
 * 2x CNNs
