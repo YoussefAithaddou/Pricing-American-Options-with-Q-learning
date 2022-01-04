@@ -34,7 +34,12 @@ This project aims to price auto-callable options using least squares policy iter
 
 ![image 2](https://github.com/YoussefAithaddou/Pricing-American-Options-with-Q-learning/blob/main/Option_prices.png)
 
-* Epochs: 3
+### Delta Values:
+
+* LSM method results in a fluctuated delta values in comparison to the other methods:
+![image 3](https://github.com/YoussefAithaddou/Pricing-American-Options-with-Q-learning/blob/main/Option_prices.png)
+
+
 # Model Evaluation:
 * Accuracy on training set is 98.28 %
 * Accuracy on testing set is 93.50 %
