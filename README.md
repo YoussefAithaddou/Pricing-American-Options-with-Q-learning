@@ -43,11 +43,12 @@ This project aims to price auto-callable options using least squares policy iter
 ### Profit and Loss:
 Q-learning methods produce a better hedging:
 ##### P&L is clustered around 0, with a standar deviation 4 times smaller than the usual LSM:
-1- Mean:
+1. Mean:
 * LSM : 0.000840		
 * LSPI: 0.000122
 * FQI : 0.000157
-2- Stdev:
+
+2. Stdev:
 * LSM : 0.0351
 * LSPI: 0.0092
 * FQI : 0.0086
