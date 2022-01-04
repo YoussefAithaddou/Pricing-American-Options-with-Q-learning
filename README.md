@@ -30,7 +30,8 @@ This project aims to price auto-callable options using least squares policy iter
 * Finally at last expiry T if the structure is still alive, the holder unconditionally receives the performance ST/S0.
 # BackTest:
 ### Option Prices:
-* LSPI and FQI descovers better strategies to execute the option, thus we except a higher return and therefore a higher option prices than LSM.
+* LSPI and FQI descover better strategies to execute the option, thus we except a higher return and therefore a higher option prices than LSM.
+
 ![image 2](https://github.com/YoussefAithaddou/Pricing-American-Options-with-Q-learning/blob/main/Option_prices.png)
 
 * Epochs: 3
