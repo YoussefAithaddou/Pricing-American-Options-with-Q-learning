@@ -37,10 +37,20 @@ This project aims to price auto-callable options using least squares policy iter
 ### Delta Values:
 
 * LSM method results in a fluctuated delta values in comparison to the other methods:
-![image 3](https://github.com/YoussefAithaddou/Pricing-American-Options-with-Q-learning/blob/main/Option_prices.png)
+![image 3](https://github.com/YoussefAithaddou/Pricing-American-Options-with-Q-learning/blob/main/Delta.png)
 
 
-# Model Evaluation:
+### Profit and Loss:
+Q-learning methods produce a better hedging:
+* their P&L is clustered around 0, with a standar deviation 4 times smaller than the usual LSM. 
+** dfsf
+** dfds
+
+
+2- dfdsf
+
+* Condfidence intervals for LSPI and FQI of daily P&L values are significently wider athan those LSM.
+* 
 * Accuracy on training set is 98.28 %
 * Accuracy on testing set is 93.50 %
 # Sample visualization:
