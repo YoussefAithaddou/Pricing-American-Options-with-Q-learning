@@ -25,8 +25,9 @@ This project aims to price auto-callable options using least squares policy iter
 
 * We consider the expiry of the payoff to be 1 year, with 4 quarterly observations.
 * (T1 = 3 Month, T2 =6 Month,T3 = 9 Month and T4 := T = 1 Year). 
-* At Ti if the observed stock price is above the barrier 120% x S0 the holder pays c and the structure continue.
+* At each Ti if the observed stock price is above the barrier 120% x S0 the holder pays c and the structure continue.
 * Otherwise the the holder receives the stock performance Sti/S0.
+* Finally at last expiry T if the structure is still alive, the holder receives unconditionally the performance ST/S0.
 ###### Hyper parameters:
 * Batch size: 16
 * Epochs: 3
